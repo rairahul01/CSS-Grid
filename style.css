@@ -1,0 +1,76 @@
+.container{
+	   display: grid;
+	   grid-gap: 10px;
+/*	   grid-template-columns: 50px 100px 100px 200px;*/
+      /* grid-template-columns: 1fr 2fr 3fr; */     /*similarly grid-template-rows: can also be used  to divide row wise;*/
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));   /*This is the best way for gridding*/
+      grid-template-rows: 1fr;
+}
+
+.zone{
+	 display: inline-block;
+	 text-align: center;
+	 font-size: 30px;
+	 font-family: Chiller;
+	 transition: all 1s;
+
+}
+.green{
+	   border:5px solid black;
+	   border-radius: 20px;
+	   background-color: green;
+}
+.blue{
+	border:5px solid black;
+	   border-radius: 20px;
+	    background-color: blue;
+	    grid-column: span 2;
+	    grid-row: span 2;
+	    grid-column-end: 4;
+	    grid-column-start: 2
+	    grid-row-start: 2;
+	    grid-row-end: 2; 
+
+
+}
+.red{
+	border:5px solid black;
+	   border-radius: 20px;
+	   background-color: red; 
+}
+.orange{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: orange;
+}
+.violet{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: violet;
+}
+
+.yellow{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: yellow;
+
+}
+.brown{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: brown;
+
+}
+.blue{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: blue;
+}
+.pink{
+	 border:5px solid black;
+	   border-radius: 20px;
+	    background-color: pink;
+}
+
+
+
